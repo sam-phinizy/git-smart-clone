@@ -1,0 +1,15 @@
+[project]
+name = "git-smart-clone"
+version = "0.1.0"
+description = "A simple git extension that clones a git directory to subfolder based on the git url"
+authors = [
+    {name = "Sam Phinizy", email = "sam@phin.tech"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
